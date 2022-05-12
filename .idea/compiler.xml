@@ -6,19 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="product-service" />
-        <module name="config-server" />
-        <module name="shopping-cart-service" />
-        <module name="discovery-server" />
         <module name="api-gateway" />
+        <module name="config-server" />
+        <module name="product-service" />
+        <module name="discovery-server" />
+        <module name="shopping-cart-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="api-gateway" target="1.8" />
-      <module name="config-server" target="1.8" />
-      <module name="discovery-server" target="1.8" />
-      <module name="product-service" target="1.8" />
-      <module name="shopping-cart-service" target="1.8" />
+      <module name="api-gateway" target="11" />
+      <module name="config-server" target="11" />
+      <module name="discovery-server" target="11" />
+      <module name="product-service" target="11" />
+      <module name="shopping-cart-service" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
